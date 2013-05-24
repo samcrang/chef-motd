@@ -5,3 +5,8 @@ license          'All rights reserved'
 description      'Installs/Configures chef-motd'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '0.1.0'
+
+supports "freebsd"
+
+depends "enforce_supported_platform"
+
